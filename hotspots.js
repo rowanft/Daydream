@@ -41,10 +41,25 @@ const pages = {
 // 2) goToRandom(tag): pick a random page from pages[tag]
 function goToRandom(tag) {
   const group = pages[tag];
-  if (group && group.length > 0) {
-    const randomPage = group[Math.floor(Math.random() * group.length)];
-    window.location.href = randomPage;
-  }
+  if (!group || group.length === 0) return; // no pages at all
+
+  // Get the current page filename, e.g. "Will.html"
+  const currentPage = window.location.pathname.split("/").pop();
+
+  // Filter out the current page
+  const filtered = group.filter(page => {
+    // We compare just the end of the URL – the filename.
+    // E.g., if page is "https://rowanft.github.io/Daydream/Will.html"
+    // and currentPage is "Will.html", we exclude it.
+    return !page.endsWith(currentPage);
+  });
+
+  // If filtering removed everything, fallback to the original group
+  const finalGroup = (filtered.length > 0) ? filtered : group;
+
+  // Pick a random page from finalGroup
+  const randomPage = finalGroup[Math.floor(Math.random() * finalGroup.length)];
+  window.location.href = randomPage;
 }
 
 // 3) setupHotspots(options)
