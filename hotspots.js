@@ -11,7 +11,6 @@ const pages = {
     "animal1.html",
     "animal2.html"
   ]
-  // add more tags as needed...
 };
 
 // 2) goToRandom(tag): pick a random page from pages[tag]
