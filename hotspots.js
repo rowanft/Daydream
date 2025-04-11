@@ -3,13 +3,37 @@
 
 // 1) Define random page links by tag
 const pages = {
-  hand: [
-    "hand1.html",
-    "hand2.html"
+    face: [
+    "face1.html",
+    "face2.html",
+  ],
+  tree: [
+    "tree1.html",
+    "tree2.html"
+  ],
+  person: [
+    "personA.html",
+    "personB.html"
   ],
   animal: [
     "animal1.html",
     "animal2.html"
+  ],
+  mystery: [
+    "mystery1.html"
+  ],
+  building: [
+    "building1.html"
+  ],
+  sky: [
+    "sky1.html"
+  ],
+  mirror: [
+    "mirror1.html"
+  ],
+  hand: [
+    "hand1.html",
+    "hand2.html"
   ]
 };
 
