@@ -17,7 +17,8 @@ const pages = {
   ],
   animal: [
     "https://rowanft.github.io/Daydream/",
-    "https://rowanft.github.io/Daydream/fence.html"
+    "https://rowanft.github.io/Daydream/fence.html",
+    "https://rowanft.github.io/Daydream/dog.html"
   ],
   mystery: [
     "mystery1.html"
