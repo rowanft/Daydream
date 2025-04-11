@@ -29,8 +29,8 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      max-width: 95vw;
-      max-height: 95vh;
+      max-width: 80vw;
+      max-height: 80vh;
     }
 
     /* The container for the image + hotspots */
@@ -69,7 +69,7 @@
     -->
     <img
       id="main-image"
-      src="ddweb-21.JPG"
+      src="images/ddweb-19.JPG"
       alt="Photo"
     >
 
@@ -80,28 +80,28 @@
     -->
     <div 
       class="hotspot"
-      data-x1="510"
-      data-y1="34"
-      data-x2="1251"
-      data-y2="971"
+      data-x1="418"
+      data-y1="59"
+      data-x2="904"
+      data-y2="708"
       onclick="goToRandom('hand')"
     ></div>
 
     <div 
       class="hotspot"
-      data-x1="158"
-      data-y1="994"
-      data-x2="913"
-      data-y2="1775"
+      data-x1="144"
+      data-y1="735"
+      data-x2="621"
+      data-y2="1292"
       onclick="goToRandom('hand')"
     ></div>
 
     <div 
       class="hotspot"
-      data-x1="161"
-      data-y1="652"
-      data-x2="476"
-      data-y2="965"
+      data-x1="127"
+      data-y1="466"
+      data-x2="383"
+      data-y2="726"
       onclick="goToRandom('face')"
     ></div>
   </div>
@@ -113,8 +113,8 @@
 <!-- 2) Initialize the hotspots for THIS page's image -->
 <script>
   setupHotspots({
-    originalWidth: 1429,    // the image's original resolution
-    originalHeight: 2000,
+    originalWidth: 1071,    // the image's original resolution
+    originalHeight: 1500,
     imageId: "main-image",
     hotspotSelector: ".hotspot"
   });
