@@ -5,7 +5,7 @@
 const pages = {
     face: [
     "https://rowanft.github.io/Daydream/Will.html",
-    "face2.html",
+    "https://rowanft.github.io/Daydream/faces.html",
   ],
   tree: [
     "tree1.html",
