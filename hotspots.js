@@ -4,7 +4,7 @@
 // 1) Define random page links by tag
 const pages = {
     face: [
-    "face1.html",
+    "https://rowanft.github.io/Daydream/Will.html",
     "face2.html",
   ],
   tree: [
@@ -16,7 +16,7 @@ const pages = {
     "personB.html"
   ],
   animal: [
-    "animal1.html",
+    "https://rowanft.github.io/Daydream/",
     "animal2.html"
   ],
   mystery: [
@@ -32,8 +32,8 @@ const pages = {
     "mirror1.html"
   ],
   hand: [
-    "hand1.html",
-    "hand2.html"
+    "https://rowanft.github.io/Daydream/Will.html",
+    "https://rowanft.github.io/Daydream/"
   ]
 };
 
